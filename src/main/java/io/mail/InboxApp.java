@@ -1,4 +1,4 @@
-package io.javabrains;
+package io.mail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

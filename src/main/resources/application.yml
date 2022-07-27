@@ -1,18 +1,4 @@
-
 spring:
-  data:
-    cassandra:
-      keyspace-name: main
-      username: <username>
-      password: <password>
-      schema-action: recreate-drop-unused
-      request:
-        timeout: 10s
-      connection:
-        connect-timeout: 10s
-        init-query-timeout: 10s
-  application:
-    name: betterreads
   security:
     oauth2:
       client:
